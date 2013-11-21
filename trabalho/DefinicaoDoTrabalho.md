@@ -4,7 +4,7 @@
 
 # Trabalho: Plano de Gerência de Configuração
 
-Utilizando o modelo Template-PlanoDeGCS.md crie um Plano de Gestão de Configuração de Software para um projeto de sua empresa ou um projeto fictício, definindo no mínimo:
+Utilizando o modelo __Template-PlanoDeGCS.md__ crie um Plano de Gestão de Configuração de Software para um projeto de sua empresa ou um projeto fictício, definindo no mínimo:
 
 * A estrutura da equipe de GCS do projeto;
 * As ferramentas escolhidas para cada finalidade (versionamento, gestão de mudanças, etc...), e recursos necessários (hardware, licenças, etc..) para o ambiente onde elas executarão;
