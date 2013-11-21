@@ -1,5 +1,7 @@
 __FACULDADE 7 DE SETEMBRO__
+
 __Disciplina: Gestão de Configuração de Software – Turma 07__
+
 __Professor: Joaquim Oliveira__
 
 # Trabalho: Plano de Gerência de Configuração
