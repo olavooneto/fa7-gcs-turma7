@@ -1,12 +1,10 @@
 __FACULDADE 7 DE SETEMBRO__
-
 __Disciplina: Gestão de Configuração de Software – Turma 07__
-
 __Professor: Joaquim Oliveira__
 
 # Trabalho: Plano de Gerência de Configuração
 
-Utilizando o modelo __Template-PlanoDeGCS.md__ crie um Plano de Gestão de Configuração de Software para um projeto de sua empresa ou um projeto fictício, definindo no mínimo:
+Utilizando o modelo [Template-PlanoDeGCS.md](https://github.com/joaquimpedrooliveira/fa7-gcs-turma7/blob/master/trabalho/Template-PlanoDeGCS.md) crie um Plano de Gestão de Configuração de Software para um projeto de sua empresa ou um projeto fictício, definindo no mínimo:
 
 * A estrutura da equipe de GCS do projeto;
 * As ferramentas escolhidas para cada finalidade (versionamento, gestão de mudanças, etc...), e recursos necessários (hardware, licenças, etc..) para o ambiente onde elas executarão;
