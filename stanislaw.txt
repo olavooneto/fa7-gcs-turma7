@@ -1,0 +1,7 @@
+SQL Server
+
+Standard Security:
+Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;
+
+Trusted Connection
+Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;
