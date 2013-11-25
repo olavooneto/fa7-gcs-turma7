@@ -5,4 +5,5 @@ Repositório para a disciplina de Gestão de Configuração Software da Especial
 
 Este repositório será usado para a aula de utilização do git de forma remota.
 
+Meu primeiro teste Chagas  
 Outro usuário fez um push.
