@@ -28,7 +28,7 @@ __O trabalho deve ser feito observando-se as seguintes regras:__
 __Entrega do trabalho__
 * Enviar por email o endereço do repositório do projeto e o nome da tag que deve ser usada para recuperar a versão final do plano;
 * Valor do trabalho: 0 a 10 pontos;
-* Data de entrega: 06/12/2013, até o final do horário da aula (22:40);
+* __Data de entrega: 09/12/2013 (NOVA DATA!), até o final do horário da aula (22:40)__;
 * __Trabalhos entregues fora do prazo ou que não obedeçam o modelo fornecido serão desconsiderados;__
 
 __Dicas:__
