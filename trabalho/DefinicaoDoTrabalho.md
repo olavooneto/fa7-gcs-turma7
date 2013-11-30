@@ -20,7 +20,7 @@ Utilizando o modelo [Template-PlanoDeGCS.md](https://github.com/joaquimpedrooliv
 __O trabalho deve ser feito observando-se as seguintes regras:__
 * Equipes de 3 pessoas;
 * Utilizar a ferramenta Git para controlar as versões do documento e o site Github para armazenar o repositório da equipe;
-* Inicialmente, a equipe deve clonar o repositório que contém o template para um repositório próprio da equipe;
+* Inicialmente, a equipe deve __fazer o fork__ do repositório que contém o template para um repositório próprio da equipe;
 * O repositório da equipe deve conter um branch para cada integrante fazer suas contribuições;
 * Ao final, deve-se realizar pelo menos um merge de cada um desses branches para o master do repositório, para consolidar o documento;
 * A versão final do plano deve receber uma tag, seguindo os padrões definidos no próprio plano;
