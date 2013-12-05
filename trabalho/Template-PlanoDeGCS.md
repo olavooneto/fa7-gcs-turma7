@@ -2,19 +2,15 @@
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão 1.0
 ------------------
-
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
+|04/12/2013|1.0|Versão inicial|Jackson Uchoa|
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
 
 
@@ -22,21 +18,27 @@ Histórico de Versões
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
+O Plano de Gerenciamento de Configuração descreve todas as atividades do Gerenciamento de Controle de Configuração e Mudança que serão executadas durante o ciclo de vida do produto. Suas atividades envolvem identificar a configuração do software, manter sua integridade durante o projeto e controlar sistematicamente as mudanças.
 
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+A finalidade deste documento é criar um padrão a ser seguido por todos os membros da equipe com o intuito de garantir o maior controle do produto no decorrer do projeto. 
+
+Para que isso aconteça serão detalhados os recursos necessários (equipes, ferramentas e computadores), as responsabilidades atribuídas e o cronograma de atividades.
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+Este Plano de Gerenciamento de Configuração é destinado para todos os integrantes da equipe responsável pelo desenvolvimento do sistema SISCAD, e abrange todo o controle e gerenciamento da configuração do projeto SISCAD – Sistema Acadêmico. 
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+| Termo        | Significado            |
+| ------------- |:---------------------:|
+| SCRUM      | É um processo ágil que permite manter o foco na entrega do maior valor de negócio, no menor tempo possível. |
+| GC      | Gerência de Configuração      |
+| CCM | Comitê para o Controle de Mudanças.      |
+| RH | Recursos Humanos      |
+| Baseline | Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.      |
 
 1.4 Referências
 ---------------
@@ -44,7 +46,15 @@ _[Esta subseção apresenta uma lista completa de todos os documentos mencionado
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
+As próximas seções deste documento estão divididas conforme a tabela abaixo.
+
+| Seção        | Descrição            |
+| ------------- |:---------------------:|
+| 2 | São relacionados os papéis, as responsabilidades das atividades e as ferramentas dentro da GC da Fábrica. |
+| 3 | É apresentado como serão criadas e controladas as Baselines. |
+| 4 | São abordados os detalhes sobre quando o Plano de Gerenciamento de Configuração deve ser atualizado. |
+| 5 | Descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas. |
+| 6 | Descreve de que forma o software desenvolvido fora do ambiente do projeto será incorporado. |
 
 
 
