@@ -1,4 +1,4 @@
-<Nome do Projeto>
+<SISACAD>
 =================
 Plano de Gerenciamento de Configuração
 ======================================
@@ -28,7 +28,7 @@ Para que isso aconteça serão detalhados os recursos necessários (equipes, fer
 
 1.2 Escopo
 ----------
-Este Plano de Gerenciamento de Configuração é destinado para todos os integrantes da equipe responsável pelo desenvolvimento do sistema SISCAD, e abrange todo o controle e gerenciamento da configuração do projeto SISCAD – Sistema Acadêmico. 
+Este Plano de Gerenciamento de Configuração é destinado para todos os integrantes da equipe responsável pelo desenvolvimento do sistema SISACAD, e abrange todo o controle e gerenciamento da configuração do projeto SISACAD – Sistema Acadêmico. 
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
@@ -63,16 +63,22 @@ As próximas seções deste documento estão divididas conforme a tabela abaixo.
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+| Seção        | Descrição            | Responsabilidade        |
+| ------------- |:---------------------:|:----------------:
+| Gerente de configuração | Jackson Uchoa | Estabelecer Políticas de GC, Escrever Plano de GC, Configurar Ambiente de GC, Criar Espaços de Trabalho de Integração, Criar Baselines, Promover Baselines |
+| Comitê de Controle de Mudanças | Jackson Uchoa, Yago Melo | Estabelecer Processo de Controle de Mudanças, Revisar Solicitação de Mudança |
+| Desenvolvedor | Yago Melo | Seguir os padrões e procedimentos definidos no Plano de Gerência de Configuração |
+| Permissões Gerais | Jackson Uchoa, Yago Melo | Enviar Solicitação de Mudança, Atualizar Solicitação de Mudança |
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
+| Ferramenta        | Tipo            | Descrição        | Versão    |
+| ------------- |:---------------------:|:----------------:|:------------:
+| Github.com |  | Projeto de hospedagem que permite o controle de versão de artefatos |  |
+| Git | Controle de Versão | Sistema de controle de versão. | 1.8.5.1 |
+| Jira | Gestão de projetos e defeitos | Ferramenta para controle de atividades e defeitos. | 6.1 |
+| JUnit | Gestão de testes unitários | Ferramenta para manutenção de testes unitários. | 4.0 |
+| Maven | Integração Continua | Ferramenta para controle continuo do código desenvolvido | 2 |
  
 
 
@@ -83,7 +89,17 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
+
+<b> [ SISACAD ][ AAA ][ TextoLivre ].[ EXT ]  Ou  [ SISACAD ][ AA ][ TextoLivre ].[ EXT ] </b>
+
+| Parte da Linha      | Descrição        |
+| ------------- |:---------------------:|
+| [ SISACAD ] | Identifica o sistema. “SISACAD - Sistema de Controle Acadêmico” |
+| [ AAA ] / [ AA ] | Significa o acrônimo de três letras (TLA) dos vários tipos de artefatos utilizados na criação do sistema. |
+| [ TextoLivre ] | Significa texto Livre para a melhor identificação do documento.  |
+| [ EXT ] | Extensão do arquivo do documento. |
+
+Exemplo: <b>SISACADMCUUC0001-ManterAlunos.doc</b> – Modelo de caso de manter Alunos
 
 ### 3.1.2 Itens de Configuração
 _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
