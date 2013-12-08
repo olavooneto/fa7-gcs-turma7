@@ -108,7 +108,12 @@ _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou 
 
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+||||
+||||
+||||
+||||
+||||
+||||
 
 
 ### 3.1.3 Baselines do Projeto
