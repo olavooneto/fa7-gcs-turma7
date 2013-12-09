@@ -130,7 +130,7 @@ Exemplo: <b>SISACADMCUUC0001-ManterAlunos.doc</b> – Modelo de caso de manter A
 </ul>
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+
 
 | Dieretório                 | Sub-diretório	     | Artefatos |
 |----------------------------|--------------------|-----------|
@@ -148,7 +148,10 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+
+As solicitações de mudanças das Baselines serão realizadas através da ferramenta _JIRA_ obdecendo o seguinte fluxo.
+
+![Alt text](https://docs.google.com/file/d/0B2Hs6NOsK9SkaFVrYnpvN1hsWTg/edit)
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
