@@ -1,50 +1,57 @@
-<Nome do Projeto>
+<SISACAD>
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão 1.0
 ------------------
-
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|04/12/2013|1.0|Versão inicial|Jackson Uchoa|
+|08/12/2013|1.1|Atualização|Yago Melo|
 
 
 
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
+O Plano de Gerenciamento de Configuração descreve todas as atividades do Gerenciamento de Controle de Configuração e Mudança que serão executadas durante o ciclo de vida do produto. Suas atividades envolvem identificar a configuração do software, manter sua integridade durante o projeto e controlar sistematicamente as mudanças.
 
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+A finalidade deste documento é criar um padrão a ser seguido por todos os membros da equipe com o intuito de garantir o maior controle do produto no decorrer do projeto. 
+
+Para que isso aconteça serão detalhados os recursos necessários (equipes, ferramentas e computadores), as responsabilidades atribuídas e o cronograma de atividades.
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+Este Plano de Gerenciamento de Configuração é destinado para todos os integrantes da equipe responsável pelo desenvolvimento do sistema SISACAD, e abrange todo o controle e gerenciamento da configuração do projeto SISACAD – Sistema Acadêmico. 
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+| Termo        | Significado            |
+| ------------- |:---------------------:|
+| SCRUM      | É um processo ágil que permite manter o foco na entrega do maior valor de negócio, no menor tempo possível. |
+| GC      | Gerência de Configuração      |
+| CCM | Comitê para o Controle de Mudanças.      |
+| RH | Recursos Humanos      |
+| Baseline | Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.      |
 
-1.4 Referências
----------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
 
-1.5 Visão Geral
+1.4 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
+As próximas seções deste documento estão divididas conforme a tabela abaixo.
+
+| Seção        | Descrição            |
+| ------------- |:---------------------:|
+| 2 | São relacionados os papéis, as responsabilidades das atividades e as ferramentas dentro da GC da Fábrica. |
+| 3 | É apresentado como serão criadas e controladas as Baselines. |
+| 4 | São abordados os detalhes sobre quando o Plano de Gerenciamento de Configuração deve ser atualizado. |
+| 5 | Descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas. |
+| 6 | Descreve de que forma o software desenvolvido fora do ambiente do projeto será incorporado. |
 
 
 
@@ -53,16 +60,22 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+| Seção        | Descrição            | Responsabilidade        |
+| ------------- |:---------------------:|:----------------:
+| Gerente de configuração | Jackson Uchoa | Estabelecer Políticas de GC, Escrever Plano de GC, Configurar Ambiente de GC, Criar Espaços de Trabalho de Integração, Criar Baselines, Promover Baselines |
+| Comitê de Controle de Mudanças | Jackson Uchoa, Yago Melo | Estabelecer Processo de Controle de Mudanças, Revisar Solicitação de Mudança |
+| Desenvolvedor | Yago Melo | Seguir os padrões e procedimentos definidos no Plano de Gerência de Configuração |
+| Permissões Gerais | Jackson Uchoa, Yago Melo | Enviar Solicitação de Mudança, Atualizar Solicitação de Mudança |
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
+| Ferramenta        | Tipo            | Descrição        | Versão    |
+| ------------- |:---------------------:|:----------------:|:------------:
+| Github.com |  | Projeto de hospedagem que permite o controle de versão de artefatos |  |
+| Git | Controle de Versão | Sistema de controle de versão. | 1.8.5.1 |
+| Jira | Gestão de projetos e defeitos | Ferramenta para controle de atividades e defeitos. | 6.1 |
+| JUnit | Gestão de testes unitários | Ferramenta para manutenção de testes unitários. | 4.0 |
+| Maven | Integração Continua | Ferramenta para controle continuo do código desenvolvido | 2 |
  
 
 
@@ -73,50 +86,111 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
+
+<b> [ SISACAD ][ AAA ][ TextoLivre ].[ EXT ]  Ou  [ SISACAD ][ AA ][ TextoLivre ].[ EXT ] </b>
+
+| Parte da Linha      | Descrição        |
+| ------------- |:---------------------:|
+| [ SISACAD ] | Identifica o sistema. “SISACAD - Sistema de Controle Acadêmico” |
+| [ AAA ] / [ AA ] | Significa o acrônimo de três letras (TLA) dos vários tipos de artefatos utilizados na criação do sistema. |
+| [ TextoLivre ] | Significa texto Livre para a melhor identificação do documento.  |
+| [ EXT ] | Extensão do arquivo do documento. |
+
+Exemplo: <b>SISACADMCUUC0001-ManterAlunos.doc</b> – Modelo de caso de manter Alunos
 
 ### 3.1.2 Itens de Configuração
-_[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
-* _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
-* _“Responsável”: indicar nominalmente, sempre que possível]_
+
 
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+|Plano de Gerenciamento de configuração|Gerente de Projetos|Planejamento|
+|Documento de Visão|Gerente de Prodjetos|Planejamento|
+|Termo de Abertura|Gerente de Prodjetos|Planejamento|
+|Plano de Projeto|Gerente de Prodjetos|Planejamento|
+|Cronograma|Gerente de Prodjetos|Planejamento|
+|Atas de Reuniões|Gerente de Prodjetos|Planejamento|
+|Especificação de Caso de Uso|Requisitos|Planejamento|
+|Glossário|Requisitos|Planejamento|
+|Manual de Implantação|Arquiteto|Planejamento|
+|Documento de Arquitetura|Arquiteto|Planejamento|
+|Modelo de Banco de Dados|DBA|Planejamento|
+|Código Fonte|Desenvolvimento|Arquitetura o projeto e Release|
+|Testes Unitários|Teste e Qualidade|Planejamento|
+|Casos de Teste|Teste e Qualidade|Planejamento|
+|Plano de Teste|Teste e Qualidade|Planejamento|
+|Sumário de Defeitos|Teste e Qualidade|Planejamento|
 
 
 ### 3.1.3 Baselines do Projeto
 
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
+<ul>
+<li>Planejamento</li>
+<li>Arquitetura e Projeto</li>
+<li>Release</li>
+</ul>
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+
+
+| Dieretório                 | Sub-diretório	     | Artefatos |
+|----------------------------|--------------------|-----------|
+|Documentos|Gerência de Configuração|Modelo do Plano de Gerenciamento de configuração  <br>Notas de Releases</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Documentos|Gerência de Projetos |Documento de Visão  <br>Termo de Abertura</br>  <br>Plano de Projeto</br>  <br>Cronograma</br>  <br>Relatório de Status</br>  <br>Atas de Reuniões</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Documentos|Requisitos|Especificação de Caso de Uso  <br>Modelo de Caso de Uso</br>  <br>Glossário</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Documentos|Analise e Projeto|Manual de Implantação  <br>Documento de Arquitetura</br>  <br>Modelo de Banco de Dados</br>  <br>Modelo de Análise e Projetos</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Fontes|Fonte|Código Fonte <br>Testes Unitários</br>|
+|Fontes|Release|Código Fonte|
+|Teste|Artefatos|Plano de Teste <br>Casos de Teste</br> <br>Relatórios</br>|
+
+
 
 3.2 Controle de Configuração e Mudança
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+
+As solicitações de mudanças das Baselines serão realizadas através da ferramenta _JIRA_ obdecendo o seguinte fluxo.
+
+![Alt text](https://docs.google.com/file/d/0B2Hs6NOsK9SkaFVrYnpvN1hsWTg/edit)
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+As solicitações de mudanças das Baselines serão realizadas com a ferramenta Issues, através do endereço do repositório. O comitê de Controle de Mudanças (CCM) será formado por Analista de sistemas e Gerente de Configuração.
 
+| Atividade              | Descrição          | Responsabilidade |
+|------------------------|--------------------|------------------|
+|Aberto |Criação da Solicitação |Todos |
+|Em Analise |Análise de Solicitação |Analista de Sistemas |
+|Analisado |Aguardado Desenvolvimento |Analista de Sistemas |
+|Em Desenvolvimento | Aguardando Desenvolvimento | Desenvolvedor |
+|Em Teste | Solicitação em Teste | Testador |
+|Finalizado |Solicitação Finalizada |Analista |
 
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
+<ul>
+<li>Liberação do Projeto</li>
+    Basicamente os projetos irão ser desenvolvidos e testados na main-line.
+
+<li>Aprovação de artefatos</li>
+    Será salvo no repositório um arquivo contendo uma copia do email do Orientador aprovando o artefato. 
+    Esse arquivo será do tipo Texto (.txt) e terá o mesmo nome do artefato a que se refere.
+
+<li>Repositório de objetos</li>
+    Apenas o gerente de configuração é responsável pela a estrutura do repositório, não podendo ser alterada por nenhum 
+    usuário do repositório. 
 
 
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
+Descrição dos treinamentos efetuados para os integrantes do Grupo.
 
+| Treinamento            | Objetivo           | Publico Alvo     |
+|------------------------|--------------------|------------------|
+|Repositório |Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo. |Toda a Equipe |
 
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+As auditorias de configuração devem ser feitas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração vem sendo corretamente aplicado. Os artefatos gerados baseados no template devem ser armazenados no repositorio do projeto e devem ser acompanhados pelo Gerente de Configuração e pelo Comitê de Controle de Mudanças. 
