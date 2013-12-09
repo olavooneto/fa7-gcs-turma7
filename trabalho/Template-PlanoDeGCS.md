@@ -174,10 +174,13 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
+Descrição dos treinamentos efetuados para os integrantes do Grupo.
 
+| Treinamento            | Objetivo           | Publico Alvo     |
+|------------------------|--------------------|------------------|
+|Repositório |Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo. |Toda a Equipe |
 
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+As auditorias de configuração devem ser feitas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração vem sendo corretamente aplicado. Os artefatos gerados baseados no template devem ser armazenados no repositorio do projeto e devem ser acompanhados pelo Gerente de Configuração e pelo Comitê de Controle de Mudanças. 
