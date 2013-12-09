@@ -11,7 +11,7 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 |04/12/2013|1.0|Versão inicial|Jackson Uchoa|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|08/12/2013|1.1|Atualização|Yago Melo|
 
 
 
@@ -154,8 +154,16 @@ As solicitações de mudanças das Baselines serão realizadas através da ferra
 ![Alt text](https://docs.google.com/file/d/0B2Hs6NOsK9SkaFVrYnpvN1hsWTg/edit)
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+As solicitações de mudanças das Baselines serão realizadas com a ferramenta Issues, através do endereço do repositório. O comitê de Controle de Mudanças (CCM) será formado por Analista de sistemas e Gerente de Configuração.
 
+| Atividade              | Descrição          | Responsabilidade |
+|------------------------|--------------------|------------------|
+|Aberto |Criação da Solicitação |Todos |
+|Em Analise |Análise de Solicitação |Analista de Sistemas |
+|Analisado |Aguardado Desenvolvimento |Analista de Sistemas |
+|Em Desenvolvimento | Aguardando Desenvolvimento | Desenvolvedor |
+|Em Teste | Solicitação em Teste | Testador |
+|Finalizado |Solicitação Finalizada |Analista |
 
 
 4. Padrões e Procedimentos
