@@ -168,7 +168,17 @@ As solicitações de mudanças das Baselines serão realizadas com a ferramenta 
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
+<ul>
+<li>Liberação do Projeto</li>
+    Basicamente os projetos irão ser desenvolvidos e testados na main-line.
+
+<li>Aprovação de artefatos</li>
+    Será salvo no repositório um arquivo contendo uma copia do email do Orientador aprovando o artefato. 
+    Esse arquivo será do tipo Texto (.txt) e terá o mesmo nome do artefato a que se refere.
+
+<li>Repositório de objetos</li>
+    Apenas o gerente de configuração é responsável pela a estrutura do repositório, não podendo ser alterada por nenhum 
+    usuário do repositório. 
 
 
 
