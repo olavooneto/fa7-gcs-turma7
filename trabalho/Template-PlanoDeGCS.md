@@ -40,11 +40,8 @@ Este Plano de Gerenciamento de Configuração é destinado para todos os integra
 | RH | Recursos Humanos      |
 | Baseline | Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.      |
 
-1.4 Referências
----------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
 
-1.5 Visão Geral
+1.4 Visão Geral
 ---------------
 As próximas seções deste documento estão divididas conforme a tabela abaixo.
 
@@ -126,12 +123,26 @@ Exemplo: <b>SISACADMCUUC0001-ManterAlunos.doc</b> – Modelo de caso de manter A
 
 ### 3.1.3 Baselines do Projeto
 
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
+<ul>
+<li>Planejamento</li>
+<li>Arquitetura e Projeto</li>
+<li>Release</li>
+</ul>
 
 ### 3.1.4 Estrutura do Repositório de Versões
 _[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+
+| Dieretório                 | Sub-diretório	     | Artefatos |
+|----------------------------|--------------------|-----------|
+|Documentos|Gerência de Configuração|Modelo do Plano de Gerenciamento de configuração  <br>Notas de Releases</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Documentos|Gerência de Projetos |Documento de Visão  <br>Termo de Abertura</br>  <br>Plano de Projeto</br>  <br>Cronograma</br>  <br>Relatório de Status</br>  <br>Atas de Reuniões</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Documentos|Requisitos|Especificação de Caso de Uso  <br>Modelo de Caso de Uso</br>  <br>Glossário</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Documentos|Analise e Projeto|Manual de Implantação  <br>Documento de Arquitetura</br>  <br>Modelo de Banco de Dados</br>  <br>Modelo de Análise e Projetos</br>  <br>Arquivos de aprovação dos documentos</br>|
+|Fontes|Fonte|Código Fonte <br>Testes Unitários</br>|
+|Fontes|Release|Código Fonte|
+|Teste|Artefatos|Plano de Teste <br>Casos de Teste</br> <br>Relatórios</br>|
+
+
 
 3.2 Controle de Configuração e Mudança
 --------------------------------------
