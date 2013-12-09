@@ -102,18 +102,26 @@ As próximas seções deste documento estão divididas conforme a tabela abaixo.
 Exemplo: <b>SISACADMCUUC0001-ManterAlunos.doc</b> – Modelo de caso de manter Alunos
 
 ### 3.1.2 Itens de Configuração
-_[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
-* _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
-* _“Responsável”: indicar nominalmente, sempre que possível]_
+
 
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-||||
-||||
-||||
-||||
-||||
-||||
+|Plano de Gerenciamento de configuração|Gerente de Projetos|Planejamento|
+|Documento de Visão|Gerente de Prodjetos|Planejamento|
+|Termo de Abertura|Gerente de Prodjetos|Planejamento|
+|Plano de Projeto|Gerente de Prodjetos|Planejamento|
+|Cronograma|Gerente de Prodjetos|Planejamento|
+|Atas de Reuniões|Gerente de Prodjetos|Planejamento|
+|Especificação de Caso de Uso|Requisitos|Planejamento|
+|Glossário|Requisitos|Planejamento|
+|Manual de Implantação|Arquiteto|Planejamento|
+|Documento de Arquitetura|Arquiteto|Planejamento|
+|Modelo de Banco de Dados|DBA|Planejamento|
+|Código Fonte|Desenvolvimento|Arquitetura o projeto e Release|
+|Testes Unitários|Teste e Qualidade|Planejamento|
+|Casos de Teste|Teste e Qualidade|Planejamento|
+|Plano de Teste|Teste e Qualidade|Planejamento|
+|Sumário de Defeitos|Teste e Qualidade|Planejamento|
 
 
 ### 3.1.3 Baselines do Projeto
